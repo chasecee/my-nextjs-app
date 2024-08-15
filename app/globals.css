@@ -31,3 +31,47 @@ body {
     text-wrap: balance;
   }
 }
+@font-face {
+  font-family: "Born2bSportyV2";
+  src: url("/Born2bSportyV2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TinyUnicode";
+  src: url("/TinyUnicode.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "VCRFont";
+  src: url("/VCRFont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Justabit";
+  src: url("/justabit.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.custom-font {
+  font-family: "Born2bSportyV2", sans-serif;
+}
+
+.custom-tiny-font {
+  font-family: "TinyUnicode", sans-serif;
+}
+.custom-justabit-font {
+  font-family: "Justabit", sans-serif;
+}
+.custom-vcr-font {
+  font-family: "VCRFont", sans-serif;
+}
+body {
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased; /* For WebKit (Chrome, Safari) */
+  -moz-osx-font-smoothing: grayscale; /* For Firefox on macOS */
+}
